@@ -1,0 +1,13 @@
+name = "qr-pinoy-telegram-bot"
+main = "src/index.ts"
+compatibility_date = "2026-08-29"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# Replace this with the public URL of the QrCustomPh site.
+SITE_URL = "https://YOUR-QR-PINOY-SITE.example"
+
+[[kv_namespaces]]
+binding = "STATE"
+# Create with: npx wrangler kv namespace create STATE
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
